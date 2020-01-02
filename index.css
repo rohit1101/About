@@ -101,7 +101,9 @@ html {
 
 .comment {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
     background-image: url(https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=900&q=60);
     height: 50rem;
     background-repeat: no-repeat;
@@ -114,8 +116,8 @@ html {
 .com {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
-    align-self: center;
+    justify-content: space-evenly;
+    align-content: space-around; 
 }
 
 .citem-1 {
@@ -123,7 +125,7 @@ html {
     flex-flow: row wrap; */
     width: 80rem;
     height: 15rem;
-    margin: 0 0 3rem 30rem;
+    margin: 0 0 3rem 0;
     border: 0.11rem solid rgba(232,163,0,0.85);
     background-color: rgba(232,163,0,0.85);
 
@@ -134,7 +136,7 @@ html {
     /* flex-flow: row wrap; */
     width: 80rem;
     height: 15rem;
-    margin: 0 0 3rem 30rem;
+    margin: 0 0 3rem 0; 
     border: 0.11rem solid rgba(232,163,0,0.85);
     background-color: rgba(232,163,0,0.85);
 }
