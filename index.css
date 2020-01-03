@@ -47,6 +47,8 @@ html {
 
 .name {
     font-weight: 600;
+    text-decoration: none;
+    color: white;
 }
 
 .header-container {
